@@ -72,7 +72,3 @@ Where:
 + $TN$ = True Negative (correct negative prediction)
 + $FP$ = False Positive (incorrect positive prediction)
 + $FN$ = False Negative (incorrect negative prediction)
-
-### Range of Values
-+ Minimum: 0.0 (all predictions are incorrect)
-+ Maximum: 1.0 (all predictions are correct)
