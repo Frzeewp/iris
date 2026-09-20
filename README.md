@@ -55,3 +55,24 @@ This Iris dataset contains measurements of sepal length, sepal width, petal leng
 + Testing rows: 18
 + Number of features: 4
 + Target: species (multi-class classification, 3 classes)
+
+## Accuracy
+Accuracy measures the percentage of correct predictions out of all predictions made.
+
+### Formula
+$$\text{Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Predictions}}$$
+
+Or:
+
+$$\text{Accuracy} = \frac{TP+TN}{TP+TN+FP+FN}$$
+
+Where:
+
++ $TP$ = True Positive (correct positive prediction)
++ $TN$ = True Negative (correct negative prediction)
++ $FP$ = False Positive (incorrect positive prediction)
++ $FN$ = False Negative (incorrect negative prediction)
+
+### Range of Values
++ Minimum: 0.0 (all predictions are incorrect)
++ Maximum: 1.0 (all predictions are correct)
